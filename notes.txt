@@ -1,0 +1,13 @@
+Queries for Demo:
+
+1. SELECT * FROM Applicant;
+
+2. JOIN:
+SELECT A.name, S.position
+FROM Applicant A
+JOIN Submissions S ON A.applicant_id = S.applicant_id;
+
+3. GROUP BY:
+SELECT position, COUNT(*)
+FROM Submissions
+GROUP BY position;
