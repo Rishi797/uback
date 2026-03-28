@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.btn {
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #6366f1, #4f46e5);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #22c55e, #16a34a);
+    border: none;
+}
+
+h1, h3 {
+    letter-spacing: -0.5px;
+}
+.input-group-text {
+    background: #6366f1;
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(99,102,241,0.5);
+    border-color: #6366f1;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #333;
+}
